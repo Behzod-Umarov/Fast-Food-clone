@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', 'Nunito Sans';
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(0, 0, 0);
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.header_logo img{
+    width: 67px;
+    height: 38px;    
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 81px;
+}
+.header_nav_list{
+    display: flex;
+    align-items: center;
+    gap: 81px;
+    list-style: none;
+}
+.header_nav_list li{
+    margin-left: 30px;
+}
+.header_nav_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.header_nav_link:hover{
+    color: rgb(187, 158, 158);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255);
+}
+.header_nav_link span{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+    transition: all 0.5s ease-in-out;
+}
+.header_nav_link span:hover{
+    color: rgb(187, 158, 158);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255);
+}
+.auth{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+    color: #000;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.auth:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 1px rgba(255, 255, 255);
+}
+
+/* Hero Section */
+
+.hero{
+    padding: 138px;
+}
+.hero_container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.hero_info h1{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+.hero_info p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 64px;
+}
+.hero_info a{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;    
+    line-height: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 34px;
+}
+.hero_info .auths{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #000000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.hero_info .auths:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255);
+}
+.sub{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero_img img{
+    width: 669px;
+    height: 568px;
+}   
+
+/* Deal Section */
+
+.deal_container{
+    text-align: center;
+}
+.deal_container p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 64px;
+}
